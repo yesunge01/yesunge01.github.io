@@ -1,0 +1,347 @@
+.dropdown-menu{
+    animation-name: atthover;
+    animation-duration: 2s;
+    animation-iteration-count:unset;
+    border-radius: 0px;
+}
+.dropdown:hover{
+    animation-play-state: running;
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+}
+
+@keyframes atthover{
+    0%{
+        opacity: 0;
+        margin-top: 30px;
+    }
+    50%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+    100%{
+        opacity: 2;
+        margin-top: 0px;
+    }
+}    
+.navbar-nav{
+    margin-left: 120;
+
+}
+.navbar-brand{
+    margin-left: 80;
+}
+.navbar-brand1{
+    margin: 20;
+}
+.navbar-nav a{
+    font-weight: 650;
+    margin: 5;
+}
+.shadow1{
+	box-shadow: 0 2px 10px -6px #888888;
+}
+.swiper-container {
+    width: 100%;
+    height: 550px;
+
+  }
+.swiper-slide img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.swiper-slide{
+    position: absolute;
+}
+.text{
+    position: relative;
+    bottom: 300;
+    left: 50;
+}
+.text h2{
+    color: red;
+    font-size: 40;
+}
+.text p{
+    font-size: 20;
+    font-weight: 500;
+    color: #1d1c1c;
+}
+.text button{
+    background: red;
+    border: none;
+    font-size: 20;
+    border-radius: 5px;
+    width: 200;
+    height: 60;
+    color: white;
+}
+.swiper-slide a{
+    text-decoration: none;
+}
+.divider1{
+    width: 10;
+    height: 3;
+    background-color: red;
+    margin: 10;
+}
+.divider2{
+    width: 40;
+    height: 3;
+    background-color: red;
+}
+.divider-container{
+    height: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text0 h2{
+    text-align: center;
+    margin: 10;
+}
+.content{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 10px 30px 1px #b1aeae;
+    margin-top: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    width: 150;
+    height: 150;
+    border-radius: 80px;
+    background-color: #f4f6fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50;
+
+}
+ion-icon{
+    font-size: 60;
+    color: red; 
+}
+.hexagon{
+    width: 150;
+    height: 150;
+    border-radius: 50%;
+    margin-top: 50;
+    position: absolute;
+    display: flex;
+}
+.hexagon img{
+    width: 20;
+    height: 20;
+    margin-top: 10;
+    margin-left: 15;
+}
+.hexagon .img1{
+    margin-left: 80;
+    margin-top: 120;
+}
+.content:hover > .hexagon:hover{
+    animation-name: circle; 
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20;
+    margin-bottom: 20;
+}
+.content-text h4{
+    font-size: 20;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 10;
+}
+.content-text p {
+    font-size: 15;
+}
+.background{
+    position: absolute;
+    z-index: -1;
+    top:1000;
+    left: -100;
+}
+.select{
+    margin-top: 80;
+    margin-bottom: 80;
+}
+.divider0{
+    display: flex;
+}
+
+.content1 .divider0 .divider{
+    margin-left: 10;
+    width: 20;
+    height: 3;
+    background-color: red;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+}
+.text2{
+    margin-top: 30;
+    width: 400;
+    display: flex;
+    flex-direction: column;
+
+}
+.text2 span{
+    margin-top: 20;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+
+
+}
+.text2 button{
+    background-color: red;
+    color: white;
+    font-size: 20;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    width: 170;
+    height: 55;
+    margin-top: 30;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icon2{
+    width: 80;
+    height: 80;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50;
+}
+.icon2 img{
+    width:40;
+    height: 40;
+    object-fit: cover;
+}
+.grey{
+    background-color: #f4f6fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grey h3{
+    font-size: 20;
+    font-weight: 600;
+    margin-top: 30;
+}
+.grey p{
+    margin-bottom: 30;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider3{
+    display: flex;
+    flex-direction: column;
+}
+.slider3 img{
+    height: 300;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.a1{
+    background-color: red;
+    width: 120;
+    height: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20;
+}
+.slider3 h5{
+    font-size: 14;
+    margin-top: 10;
+}
+.fooder{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    height: 200;
+
+}
+.fooder ion-icon{
+    color: white;
+    font-size: 50px;
+}
+.mail h5{
+    color: white;
+}
+.mail p{
+    color: white;
+}
+.ion:hover{
+    background-color: red;
+    box-shadow: 1px 10px 30px 1px #a32b2b;
+}
+.ion{
+    width: 60;
+    height: 60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20;
+}
+.ersdel{
+    background-color: red;
+    color: white;
+    font-size: 15;
+    border-radius: 5px;
+    width: 220;
+    height: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 60;
+    margin-bottom: 20;
+}
+.tex{
+    margin-bottom: 30;
+}
+
+
+
+
+
+
+
+
